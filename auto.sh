@@ -1,5 +1,5 @@
-wget https://github.com/9WW7XxHy/autochilkat/blob/main/chilkat_9_5_0.so
-wget https://github.com/9WW7XxHy/autochilkat/blob/main/20-chilkat.ini
+wget https://github.com/9WW7XxHy/autochilkat/raw/main/chilkat_9_5_0.so
+wget https://github.com/9WW7XxHy/autochilkat/raw/main/20-chilkat.ini
 
 extension_dir=$(php -r 'echo ini_get("extension_dir");')
 php_d_dir=$(php -i | grep 'Scan this dir for additional .ini files' | awk -F'=>' '{gsub(/^[ \t]+/, "", $2); print $2}')
